@@ -1,6 +1,6 @@
-# CallActions Exercise
+# Exercise
 
-This is the resolution of a task asked by Callactions.
+This is the resolution of a test task
 
 ## Install and setup
 
