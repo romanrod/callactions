@@ -37,7 +37,6 @@ module Sinatra
 
       app.delete '/contacts/:id/activities/:act_id' do |user_id, activity_id|
         params[:activity_id]
-        byebug
         halt_if_activity_not_found!
         delete_activity!
       end
