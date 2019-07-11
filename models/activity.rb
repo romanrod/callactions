@@ -14,7 +14,6 @@ class Activity
   belongs_to :contact
   
   field :id, type: BSON::ObjectId 
-  # field :contact_id, type: String
   field :description, type: String
   
   validates_presence_of :description

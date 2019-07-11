@@ -9,7 +9,7 @@ module Serializers
       begin
         data = {
           id: @activity.id.to_s,
-          contact_id: @activity.contact_id,
+          contact_id: @activity.contact_id.to_s,
           description: @activity.description,
           created_at: @activity.created_at,
           updated_at: @activity.updated_at
