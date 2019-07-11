@@ -54,6 +54,7 @@ module Helpers
       rescue => e
         halt_500!
       end
+      Serializers::Activity.new(act).to_json
     end
 
     def delete_activity!
